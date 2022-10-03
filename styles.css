@@ -1,0 +1,78 @@
+.container {
+    max-width: 960px;
+    margin: auto;
+    line-height: 1.5;
+    font-size: 18px;
+    color: #2d3748;
+    font-family: sans-serif;
+    display: grid;
+    grid-template-columns: 60% 40%;
+  }
+.heading-section{
+    
+    grid-column: span 2;
+    background-color:#63B3ED;
+    color:  #FFFFFF;
+    text-align: center ;
+}
+#girl1{
+    border-radius: 100%;
+    padding-top: 10px;
+}
+h1{
+    font-family: serif;
+    font-size: 36px;
+}
+h2{
+    font-size: 32px;
+    color: #48bb78;
+}
+h5{
+    color: #718096;
+}
+.content-blog {  
+    
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    padding: 1rem;
+    grid-column: 1;
+  }
+.emphasized { font-style: italic; }
+
+aside{
+    grid-column: 2;
+}
+h3.aboutcolor{
+    color: #000000;
+    font-family: serif;
+
+}
+h3.SMcolor{
+    color: #48bb78;
+    font-family: serif
+}
+h3.Acolor{
+    color: #48bb78;
+    font-family: serif
+}
+.sidebar-about{
+    background-color: #e2e8f0;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px ;
+}
+
+.sidebar-SM{
+    color: #4299E1;
+}
+.sidebar-A{
+    color: #4299E1;
+}
+#footer1{
+    background-color: #2C5282;
+    color: #FFFFFF;
+    
+}
+footer{
+    grid-column: span 2;
+}
